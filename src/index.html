@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="myStyles.css">
+  <!-- Bootstrap CSS -->
+  <title>Quiz</title>
+</head>
+
+<body class="h-100">
+  <!-- Start Card-->
+  <div class="start-cont container-fluid w-100 h-100 d-flex align-items-center justify-content-center">
+    <div class="card start-card overflow-wrap border-0 text-center">
+      <div class="card-body p-1 text-center">
+        <div class="card-info">
+          <h1 class="card-title mt-1 ">University Quiz</h1>
+          <h4 class="card-text sub-header">Play to find out which Ontario university you should go to!</h4>
+        </div>
+        <div class="play-btn m-5">
+          <button class=" play-btn btn bg-dark btn-primary btn-lg" id="play-btn">Play</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Card -->
+
+  <div class="main-game w-100 h-100">
+    <div class="quiz-section">
+      <!-- Title -->
+      <div class="play-cont container-fluid text-center mt-2 ">
+        <h1 class="font-weight-bold">University Quiz</h1>
+      </div>
+      <!-- Question -->
+      <div class=" container text-center mt-4">
+        <h2 class="question">Do You Like Partying?</h2>
+      </div>
+      <!-- Answers -->
+      <div class="container-fluid answers mt-4 d-flex justify-content-center">
+        <div class="row w-100">
+          <div class=" answer col-sm pt-2 d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary w-100" id="a1" value="a1">Answer 1</button>
+          </div>
+          <div class=" answer col-sm pt-2 d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary w-100" id="a2" value="a2">Answer 2</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Result -->
+    <div class="result-header text-center m-3">
+      <h1 class="result-header-text"></h1>
+    </div>
+    <div class="card result-card  mx-auto my-auto">
+      <img src="/img/Queens.png" alt="" class="card-img">
+      <div class="card-body">
+        <h2 class="card-title"> Queens University</h2>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">Find Out More</a>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "quiz-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://michaelaizenshtat.github.io/Quiz-Game"
+}
