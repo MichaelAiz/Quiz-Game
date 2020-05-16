@@ -105,7 +105,7 @@ function showResult(){
     //set result based on score and change content of result card
     if (num_a1 == score.length){
         result = "Queens";
-        img.setAttribute('src', "../img/Queens.png");
+        img.setAttribute('src', "img/Queens.png");
         result_header.innerHTML = "You Got Queens University!";
         result_title.innerHTML = "Queens";
         result_text.innerHTML = "Queens University is the perfect university for having a social life. Your job prospects may not be the greates, but it is statiscally proven you have a 75% chance of getting laid if youy go here.";
@@ -113,7 +113,7 @@ function showResult(){
     }
     else if (num_a1 > num_a2){
         result = "McMaster";
-        img.setAttribute('src', "../img/McMaster.jpg");
+        img.setAttribute('src', "img/McMaster.jpg");
         result_header.innerHTML = "You Got McMaster!";
         result_title.innerHTML = "McMaster";
         result_text.innerHTML = ("You got this if you like to have some fun, but somewhere inside you still hate yourself at least a little bit. Here you can find a little bit of fun, but its far more likely you'll just find some smog");
@@ -121,7 +121,7 @@ function showResult(){
     }
     else if (num_a1 == num_a2){
         result = "York"
-        img.setAttribute('src', "../img/York.jpg");
+        img.setAttribute('src', "img/York.jpg");
         result_header.innerHTML = "You Got York University!";
         result_title.innerHTML = "York;";
         result_text.innerHTML = "York is for people who can't decide what to really do with their lives or what they want, which makes sense since to get this result you had to have clicked each button an equal number of times. Enjoy your education or psych degree."
@@ -129,7 +129,7 @@ function showResult(){
     }
     else if (num_a1 < num_a2){
         result = "Waterloo"
-        img.setAttribute('src', "../img/Waterloo.jpg");
+        img.setAttribute('src', "img/Waterloo.jpg");
         result_header.innerHTML = "You Got Waterloo University!";
         result_title.innerHTML = "Waterloo";
         result_text.innerHTML = "Call Crises Services Canada at 1-833-456-4566, or visit Ementalhealth.ca.";
