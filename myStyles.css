@@ -25,7 +25,7 @@ body.play{
 }
 
 .result-card{
-    max-width:85%;
+    max-width:75%;
     display:none;
 }
 .result-card.visible{
@@ -33,19 +33,19 @@ body.play{
 }
 
 
-@media (min-width:576px){
-    .answers .btn{
-        width:35% !important;
-        font-size: 2em;
+@media (min-width:600px){
+    .result-card{
+        max-width: 85%;
     }
+    
+}
+
+@media(min-width:992px){
     img{
         width:100%;
     }
     .result-card{
-        max-width: 45%;
+        max-width: 55%;
     }
-    body{
-        overflow:hidden;
-    }
-    
+
 }
