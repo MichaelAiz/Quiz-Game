@@ -31,19 +31,21 @@ body.play{
 .result-card.visible{
     display:block;
 }
+img{
+    width:100%;
+    height:auto;
+}
 
 
 @media (min-width:600px){
     .result-card{
-        max-width: 85%;
+        max-width: 55%;
     }
     
 }
 
 @media(min-width:992px){
-    img{
-        width:100%;
-    }
+
     .result-card{
         max-width: 55%;
     }
