@@ -40,8 +40,8 @@ const q1 = new Question('Do you enjoy parties?', 'yes', 'no');
 const q2 = new Question('Do you enjoy having free time?', 'yes', 'no');
 const q3 = new Question('Do you want to have sex?', 'yes', 'no');
 const q4 = new Question('Country or City?', 'Country', 'City');
-const q5 = new Question('How do you feel about smog?', 'love it, its my crack', 'ew');
-const q6 = new Question('Money or Happiness', 'Money', 'Happiness');
+const q5 = new Question('Rap or Classical?', 'Rap', 'Classical');
+const q6 = new Question('Money or Happiness?', 'Happiness', 'Money');
 
 //array of question objects
 const questions = [q1, q2, q3, q4, q5, q6];
@@ -108,7 +108,7 @@ function showResult(){
         img.setAttribute('src', "img/Queens.png");
         result_header.innerHTML = "You Got Queens University!";
         result_title.innerHTML = "Queens";
-        result_text.innerHTML = "Queens University is the perfect university for having a social life. Your job prospects may not be the greatest, but it is statistically proven you have a 75% chance of getting laid if you go here.";
+        result_text.innerHTML = "Queens University is the perfect university for having a social life. It is statistically proven you have a 75% chance of getting laid if you go here.";
         result_link.setAttribute('href', 'https://www.queensu.ca/' );
     }
     else if (num_a1 > num_a2){
@@ -116,7 +116,7 @@ function showResult(){
         img.setAttribute('src', "img/McMaster.jpg");
         result_header.innerHTML = "You Got McMaster!";
         result_title.innerHTML = "McMaster";
-        result_text.innerHTML = ("You got this if you like to have some fun, but somewhere inside you still hate yourself at least a little bit. Here you can find a little bit of fun, but its far more likely you'll just find some smog");
+        result_text.innerHTML = ("You got this if you like to have some fun, but somewhere inside you still hate yourself at least a little bit. Here you can find a little bit of fun, but its far more likely you'll just find some smog.");
         result_link.setAttribute('href', 'https://www.mcmaster.ca/' );   
     }
     else if (num_a1 == num_a2){
