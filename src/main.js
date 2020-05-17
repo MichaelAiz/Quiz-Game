@@ -124,7 +124,7 @@ function showResult(){
         img.setAttribute('src', "img/York.jpg");
         result_header.innerHTML = "You Got York University!";
         result_title.innerHTML = "York";
-        result_text.innerHTML = "York is for people who can't decide what to really do with their lives or what they want, which makes sense since to get this result you had to have clicked each button an equal number of times. Enjoy your education or psych degree."
+        result_text.innerHTML = "York is for people who can't decide what to really do with their lives or what they want. Enjoy your education or psych degree."
         result_link.setAttribute('href', 'https://www.yorku.ca/index.html' );   
     }
     else if (num_a1 < num_a2){
