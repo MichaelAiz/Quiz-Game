@@ -108,7 +108,7 @@ function showResult(){
         img.setAttribute('src', "img/Queens.png");
         result_header.innerHTML = "You Got Queens University!";
         result_title.innerHTML = "Queens";
-        result_text.innerHTML = "Queens University is the perfect university for having a social life. Your job prospects may not be the greates, but it is statiscally proven you have a 75% chance of getting laid if youy go here.";
+        result_text.innerHTML = "Queens University is the perfect university for having a social life. Your job prospects may not be the greatest, but it is statistically proven you have a 75% chance of getting laid if you go here.";
         result_link.setAttribute('href', 'https://www.queensu.ca/' );
     }
     else if (num_a1 > num_a2){
@@ -123,7 +123,7 @@ function showResult(){
         result = "York"
         img.setAttribute('src', "img/York.jpg");
         result_header.innerHTML = "You Got York University!";
-        result_title.innerHTML = "York;";
+        result_title.innerHTML = "York";
         result_text.innerHTML = "York is for people who can't decide what to really do with their lives or what they want, which makes sense since to get this result you had to have clicked each button an equal number of times. Enjoy your education or psych degree."
         result_link.setAttribute('href', 'https://www.yorku.ca/index.html' );   
     }
