@@ -25,27 +25,29 @@ body.play{
 }
 
 .result-card{
-    max-width:85%;
+    max-width:95%;
     display:none;
 }
 .result-card.visible{
     display:block;
 }
+img{
+    width:100%;
+    height:auto;
+}
 
 
-@media (min-width:576px){
-    .answers .btn{
-        width:35%;
-        font-size: 2em;
-    }
-    img{
-        width:100%;
-    }
+@media (min-width:600px){
     .result-card{
-        max-width: 45%;
-    }
-    body{
-        overflow:hidden;
+        max-width: 55%;
     }
     
+}
+
+@media(min-width:992px){
+
+    .result-card{
+        max-width: 55%;
+    }
+
 }
