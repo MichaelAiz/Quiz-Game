@@ -38,7 +38,7 @@ class Question {
 //Question Objects
 const q1 = new Question('Do you enjoy parties?', 'yes', 'no');
 const q2 = new Question('Do you enjoy having free time?', 'yes', 'no');
-const q3 = new Question('Do you want to have sex?', 'yes', 'no');
+const q3 = new Question('Do you want to have a good experience?', 'yes', 'no');
 const q4 = new Question('Country or City?', 'Country', 'City');
 const q5 = new Question('Rap or Classical?', 'Rap', 'Classical');
 const q6 = new Question('Money or Happiness?', 'Happiness', 'Money');
@@ -108,7 +108,7 @@ function showResult(){
         img.setAttribute('src', "img/Queens.png");
         result_header.innerHTML = "You Got Queens University!";
         result_title.innerHTML = "Queens";
-        result_text.innerHTML = "Queens University is the perfect university for having a social life. It is statistically proven you have a 75% chance of getting laid if you go here.";
+        result_text.innerHTML = "Queens University is the perfect university for having a social life. You probably like having fun and are good looking.";
         result_link.setAttribute('href', 'https://www.queensu.ca/' );
     }
     else if (num_a1 > num_a2){
